@@ -1,0 +1,5 @@
+.kenesis-body[data-mobile-width="y"] .section-ctn[data-n="2"] > .inner-ctn > .image-ctn .rv-image, 
+.kenesis-body[data-mobile-width="y"] .section-ctn[data-n="4"] > .inner-ctn > .image-ctn .rv-image {
+    width: 270px;
+    height: 270px;
+}

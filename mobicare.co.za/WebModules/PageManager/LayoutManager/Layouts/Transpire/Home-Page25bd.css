@@ -1,0 +1,155 @@
+html {
+    overflow-x: hidden;
+}
+
+.kenesis-body .rv-image > .inner-ctn {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.kenesis-body .shead,
+.kenesis-body .head,
+.kenesis-body .content {
+    background-color: transparent !important;
+}
+
+html body.kenesis-body div.rv-content > div, 
+html body.kenesis-body div.rv-head > div, 
+html body.kenesis-body div.rv-shead > div {
+    padding: 0 !important;
+}
+
+.kenesis-body .section-ctn {
+    position: relative;
+}
+
+.kenesis-body .rv-content {
+    padding: 20px;
+}
+
+.kenesis-body .rv-module,
+.kenesis-body .rv-widget {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .rv-image,
+.kenesis-body .section-ctn[data-n="4"] > .rv-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .rv-image > .inner-ctn,
+.kenesis-body .section-ctn[data-n="4"] > .rv-image > .inner-ctn {
+    background-attachment: fixed;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .rv-image:before,
+.kenesis-body .section-ctn[data-n="4"] > .rv-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .inner-ctn,
+.kenesis-body .section-ctn[data-n="4"] > .inner-ctn {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    padding: 70px 0;
+    padding-bottom: 100px;
+}
+
+.kenesis-body .section-ctn[data-n="2"],
+.kenesis-body .section-ctn[data-n="4"] {
+    text-align: center;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .inner-ctn > .image-ctn .rv-image,
+.kenesis-body .section-ctn[data-n="4"] > .inner-ctn > .image-ctn .rv-image {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .inner-ctn > .image-ctn .rv-image:before,
+.kenesis-body .section-ctn[data-n="4"] > .inner-ctn > .image-ctn .rv-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    z-index: 3;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .inner-ctn > .image-ctn .rv-image .inner-wrap,
+.kenesis-body .section-ctn[data-n="4"] > .inner-ctn > .image-ctn .rv-image .inner-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    opacity: 0;
+    transition: 0.5s ease;
+    z-index: 4;
+}
+
+.kenesis-body .section-ctn[data-n="2"] > .inner-ctn > .image-ctn .rv-image:hover:before,
+.kenesis-body .section-ctn[data-n="2"] > .inner-ctn > .image-ctn .rv-image:hover .inner-wrap,
+.kenesis-body .section-ctn[data-n="4"] > .inner-ctn > .image-ctn .rv-image:hover:before,
+.kenesis-body .section-ctn[data-n="4"] > .inner-ctn > .image-ctn .rv-image:hover .inner-wrap {
+    opacity: 1;
+}
+
+.kenesis-body .section-ctn > .inner-ctn > .image-ctn {
+    margin-top: 50px;
+}
+
+.bot-nav {
+    height: 50px;
+    position: relative;
+    z-index: 9;
+    background-color: #000000;
+}
+
+.go-to-top-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #c89b40;
+    right: 5%;
+    top: -25px;
+    cursor: pointer;
+}
+
+.go-to-top-btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 40px;
+    color: white;
+}
+
+.kenesis-body .botnav {
+    position: relative;
+}

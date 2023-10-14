@@ -1,0 +1,40 @@
+.kenesis-body[data-laptop-width="y"] section[data-n="3"] > .inner-ctn {
+    padding: 50px;
+}
+
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn .over-block {
+    display: none;
+}
+
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn .rv-image, 
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn .rv-content {
+    position: relative;
+    left: auto !important;
+    right: auto;
+    transform: none;
+    top: auto !important;
+    margin: 20px auto;
+}
+
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn .rv-image {
+    max-width: 600px;
+    width: 90%;
+}
+
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn .rv-content {
+    height: auto;
+    max-width: 600px;
+    width: 90%;
+}
+
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn .rv-content > .inner-ctn {
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+}
+
+.kenesis-body[data-laptop-width="y"] section[data-n="4"] > .inner-ctn {
+    height: auto;
+}

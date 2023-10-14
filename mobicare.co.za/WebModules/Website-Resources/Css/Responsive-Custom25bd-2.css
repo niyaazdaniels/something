@@ -1,0 +1,390 @@
+.rv-widget .mapscroll-wrap,
+.rv-widget .mapscroll-wrap iframe,
+.rv-widget .mapscroll-wrap .mapscroll-overlay {
+    max-height: 500px;
+}
+
+.down-doc-wrapper .down-doc-btn a {
+    color: inherit !important;
+    /*background-color: !important;*/
+    text-decoration: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.kenesis-body .logo img {
+    background-color: transparent !important;
+}
+
+.kenesis-body div.mobile-menu a.mobile-menu-link:hover,
+.kenesis-body div.mobile-menu a.mobile-menu-link:focus,
+.kenesis-body div.mobile-menu a.mobile-menu-link:active {
+    font-size: 40px !important;
+}
+
+.kenesis-body .topnav,
+.kenesis-body .botnav {
+    z-index: 10 !important;
+}
+
+.kenesis-body .logo {
+    z-index: 20000 !important;
+}
+
+.fancybox-overlay {
+    z-index: 80100 !important;
+}
+
+.fancybox-opened {
+    z-index: 80300 !important;
+}
+
+.remodal-overlay {
+    z-index: 100020 !important;
+}
+
+.kenesis-body > iframe {
+    display: none !important;
+}
+
+.remodal-wrapper {
+    z-index: 1000000000 !important;
+}
+
+.logo.mobile-logo a {
+    cursor: default;
+}
+
+html .kenesis-body .botnav {
+    z-index: 9 !important;
+}
+
+.dummy-div {
+    visibility: hidden;
+}
+
+html .kenesis-body div.rv-content > div,
+html .kenesis-body div.rv-head > div,
+html .kenesis-body div.rv-shead > div {
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.rv-image {
+    overflow: hidden;
+}
+
+.botnav ul li ul {
+    position: absolute;
+}
+
+.BackLink {
+    color: #fff !important;
+}
+
+html .kenesis-body .no-parra {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+#container.container section.background {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.rv-content table {
+    width: 100% !important;
+}
+
+button {
+    border-style: solid;
+}
+
+.rv-head h1,
+.rv-shead h2 {
+    text-align: inherit !important;
+    margin: 0;
+}
+
+.kenesis-body table h1,
+.kenesis-body table h2,
+.kenesis-body table h3,
+.kenesis-body table h4,
+.kenesis-body table h5,
+.kenesis-body table p {
+    text-align: inherit !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+}
+
+html .kenesis-body .rv-module {
+    padding: 25px;
+    overflow: auto;
+}
+
+html .kenesis-body {
+    overflow-x: hidden;
+    margin: 0 !important;
+}
+
+a {
+    transition: 0.25s !important;
+}
+
+.navbar a,
+.rv-content a {
+    transition: 0.8s ease !important;
+}
+
+body .logo a {
+    background-color: transparent !important;
+}
+
+.kenesis-body .rv-no-parra {
+    background-position: center !important;
+    background-attachment: scroll !important;
+    background-repeat: no-repeat;
+}
+
+.rv-shead,
+.rv-head {
+    overflow: hidden;
+}
+
+.rv-shead > div,
+.rv-head > div {
+    padding: 10px;
+    width: auto;
+}
+
+.rv-head h1 {
+    margin: 0;
+}
+
+.mobile-menu .logo {
+    left: 42% !important;
+    position: fixed !important;
+    top: 0 !important;
+    height: 55px !important;
+    width: auto !important;
+    z-index: 999;
+    display: block !important;
+}
+
+.mobile-menu .logo img {
+    left: 42% !important;
+    position: fixed !important;
+    top: 0 !important;
+    height: 55px !important;
+    width: auto !important;
+}
+
+.mobile-menu .navbar {
+    position: relative;
+    height: 100%;
+    left: initial !important;
+    text-align: left !important;
+}
+
+.mobile-menu .navbar li {
+    float: none;
+}
+
+.mobile-menu .navbar a,
+.mobile-menu .navbar a:hover {
+    font-size: 18px !important;
+    padding: 0;
+    border-bottom: 1px solid #fff !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+}
+
+.mobile-menu .navbar li ul li {
+    width: 100% !important;
+}
+
+.box-shadow-menu {
+    background-color: transparent !important;
+    position: relative;
+    margin-left: 0.5%;
+    Font-Size: 40px !important;
+    vertical-align: bottom;
+}
+
+.box-shadow-menu:hover,
+.box-shadow-menu:active,
+.box-shadow-menu:focus,
+.box-shadow-menu-black:hover,
+.box-shadow-menu-black:active,
+.box-shadow-menu-black:focus {
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    opacity: 0.95;
+    font-size: 18px;
+    text-align: left !important;
+    z-index: 999;
+    min-height: 55px;
+}
+
+.mobile-menu .inner-mobile-menu {
+    width: 90%;
+    margin: 25px auto;
+    display: none;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.mobile-menu ul {
+    margin: 0 !important;
+    list-style-image: none;
+}
+
+.mobile-menu .navbar li ul {
+    display: block;
+}
+
+.mobile-menu ul li {
+    width: 30% !important;
+    transition: 0.35s ease-out, transform 0.35s ease-out;
+    margin: 5px;
+    text-align: left;
+}
+
+.mobile-menu .inner-mobile-menu ul li ul li a {
+    border-bottom: 0 !important;
+}
+
+.mobile-menu .inner-mobile-menu ul li a {
+    opacity: 0.8;
+    transition: 0.35s ease-out, transform 0.35s ease-out;
+    text-align: left !important;
+}
+
+.mobile-menu .mobile-menu-link a:hover,
+.mobile-menu .mobile-menu-link a:active,
+.mobile-menu .mobile-menu-link a:focus {
+    opacity: 1;
+    font-size: 18px !important;
+}
+
+@media (max-width: 1100px) {
+
+    .kenesis-body .navbar li {
+        width: 90px;
+    }
+
+    .kenesis-body .logo {
+        width: 300px;
+        height: 140px;
+    }
+
+    .kenesis-body .mobile-menu .logo img {
+        left: 45px !important;
+        margin: 0 !important;
+        max-width: 175px !important;
+    }
+
+    .kenesis-body .mobile-menu .navbar li {
+        width: 100% !important;
+    }
+
+    .kenesis-body .topnav {
+        left: 200px;
+    }
+
+    html .kenesis-body div.botnav {
+        /*display: none !important;*/
+    }
+
+
+}
+
+@media (max-width: 1100px) {
+
+    .kenesis-body .mobile-menu {
+        display: block;
+    }
+
+    .kenesis-body .topnav,
+    .kenesis-body .logo {
+        display: none;
+    }
+
+    .kenesis-body h1,
+    .kenesis-body h2 {
+        font-size: 18px !important;
+    }
+
+    .kenesis-body h3,
+    .kenesis-body h4,
+    .kenesis-body h5,
+    .kenesis-body h6,
+    .kenesis-body h7 {
+        font-size: 15px !important;
+    }
+
+    .kenesis-body p {
+        font-size: 12px !important;
+    }
+
+}
+
+.kenesis-body[data-laptop-width='y'] > .inner-body {
+    padding: 0;
+    width: 100%;
+}
+
+body.kenesis-body[data-laptop-width='y'] > div.inner-body div.rv-inner-content.rv-head.head,
+body.kenesis-body[data-laptop-width='y'] > div.inner-body div.rv-inner-content.rv-shead.shead,
+body.kenesis-body[data-laptop-width='y'] > div.inner-body div.rv-inner-content.rv-content.content,
+body.kenesis-body[data-laptop-width='y'] > div.inner-body div.rv-inner-content.rv-image.image,
+body.kenesis-body[data-laptop-width='y'] > div.inner-body div.rv-inner-content.rv-module.module,
+body.kenesis-body[data-laptop-width='y'] > div.inner-body div.rv-inner-content.rv-widget.widget {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+.kenesis-body[data-laptop-width='y'] .mobile-menu ul li ul {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    display: block !important;
+    right: auto !important;
+}
+
+.kenesis-body[data-mobile-menu-active="yes"] .mobile-menu {
+    display: block;
+}
+
+.kenesis-body[data-mobile-menu-active="yes"] .topnav:not(.mb),
+.kenesis-body[data-mobile-menu-active="yes"] .logo {
+    display: none;
+}
+
+.kenesis-body[data-mobile-menu-active="yes"] .logo {
+    padding: 0 !important;
+}

@@ -1,0 +1,4 @@
+html .kenesis-body[data-mobile-width="y"] div.rv-inner-content.rv-module.module {
+    width: 100% !important;
+    padding: 5px !important;
+}

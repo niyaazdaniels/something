@@ -1,0 +1,175 @@
+
+    .mini-modal-box .mini-pdf-download,
+    .mini-modal-box .mini-link {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        transition: 0.25s ease;
+        cursor: pointer;
+        color: white !important;
+        background-color: #333 !important;
+        margin-top: 5px;
+        margin-right: 5px;
+        text-align: center;
+        border: 5px solid #333 !important;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .mini-modal-box .mini-pdf-download i,
+    .mini-modal-box .mini-link i {
+        margin-top: 8px;
+        font-size: 25px;
+    }
+
+    .mini-modal-box .mini-pdf-download:hover,
+    .mini-modal-box .mini-link:hover {
+        transform: scale(1.1);
+        background-color: #ff0238 !important;
+    }
+
+    .mini-modal-box {
+        z-index: 9999999999 !important;
+    }
+
+    .mini-modal-box .modal-content {
+        padding: 15px;
+    }
+
+    .mini-modal-box .one-third {
+        width: 40%;
+        vertical-align: top;
+        float: left;
+        margin: 20px;
+        margin-top: 0;
+        margin-left: 0;
+        z-index: 999999999999;
+    }
+
+    .mini-modal-box .mini-placeholder {
+        width: 40%;
+        vertical-align: top;
+        float: left;
+        margin: 20px;
+        margin-top: 0;
+        margin-left: 0;
+        height: 300px;
+    }
+
+    .mini-modal-box .modal-content {
+        position: relative;
+    }
+
+    .mini-modal-box .m-product-name {
+        margin: 0;
+        margin-bottom: 15px;
+        text-align: left;
+        font-size: 44px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    .mini-modal-box .modal-content {
+        text-align: left;
+    }
+
+    .mini-modal-box .mini-tab {
+        font-weight: 300;
+        font-size: 16px;
+        color: #939598;    
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        word-break: keep-all;
+        z-index: 1;
+    }
+
+    .mini-modal-box .mini-head {
+        margin: 15px 0;
+        padding: 0;
+        line-height: normal;
+        color: #000;
+        font-size: 20px!important;
+        line-height: 24px!important;
+        margin-top: 0!important;
+        margin-bottom: 15px!important;
+        text-transform: uppercase;
+    }
+
+    .mini-modal-box hr {
+        border-top: solid 1px #939598;
+        border-bottom: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .iziModal-button-fullscreen {
+        display: none !important;
+    }
+
+    .iziModal:after {
+        content: none;
+    }
+
+    .iziModal {
+        overflow: auto !important;
+    }
+	
+	.mini-catalog-ctn[data-show-price="off"] .mini-price, 
+    .mini-catalog-ctn[data-show-price="off"] .mini-modal-box .price-hide {
+        display: none !important;
+    }
+
+    
+    .mini-catalog-ctn[data-slider="normal"] .mini-modal-box .js-slider {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .mini-catalog-ctn[data-slider="normal"] .mini-modal-box .js-slider__item {
+        background-position: center; 
+        background-size: cover;
+        transition: all 0.8s ease-in-out;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+    
+    .mini-catalog-ctn[data-slider="normal"] .mini-modal-box .js-slider__item.is-active {
+        opacity: 1;
+    }
+
+    .mini-catalog-ctn[data-popup="full"] .mini-modal-box .one-third {
+        width: 100%;
+        float: none;
+    }
+
+    @media (max-width: 780px) {
+        
+        .iziModal {
+            width: 85%;
+        }
+
+        .mini-modal-box .one-third {
+            width: 100%;
+            position: relative;
+        }
+
+        .mini-modal-box .mini-placeholder {
+            display: none;
+        }
+
+    }

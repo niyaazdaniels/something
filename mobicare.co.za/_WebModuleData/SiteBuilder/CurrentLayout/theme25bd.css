@@ -1,0 +1,165 @@
+/*Crystal*/
+.botnav{
+Background-Color:rgba(1,0,102,1) !important;
+Color:rgba(255,255,255,1) !important;
+}
+ 
+.content{
+Background-Color:rgba(255,255,255,1) !important;
+Color:rgba(0,0,0,1) !important;
+}
+ 
+.customclass1{
+Color:rgba(4,+55,+105,+1) !important;
+Background-Color:rgba(35,+33,+34,+0.9) !important;
+}
+ 
+.customclass2{
+Color:rgba(4,+55,+105,+1) !important;
+Background-Color:rgba(35,+33,+34,+0.9) !important;
+}
+ 
+.customnavclass1{
+Background-Color:rgba(35,+33,+34,+0.9) !important;
+Color:rgba(4,+55,+105,+1) !important;
+}
+ 
+.customnavclass2{
+Color:rgba(4,+55,+105,+1) !important;
+Background-Color:rgba(35,+33,+34,+0.9) !important;
+}
+ 
+.rv-label .even{
+Color:rgba(4,+55,+105,+1) !important;
+Background-Color:rgba(35,+33,+34,+1) !important;
+Font-Size:24px !important;
+}
+ 
+.generic{
+Background-Color:rgba(35,+33,+34,+0.9) !important;
+}
+ 
+.head{
+Background-Color:rgba(35,+33,+34,+1) !important;
+}
+ 
+.logo{
+Background-Color:rgba(255,255,255,1) !important;
+}
+ 
+.module{
+Color:rgba(0,0,0,1) !important;
+Background-Color:rgba(255,255,255,1) !important;
+Border-Color:rgba(1,0,102,0) !important;
+}
+ 
+.navbar a{
+font-Weight:Bold !important;
+Color:rgba(1,0,102,1) !important;
+Border-Width:1px !important;
+Border-Color:rgba(112,112,112,1) !important;
+}
+ 
+.navbar a:active, li a.navbara-active{
+font-Weight:Bold !important;
+Color:rgba(1,0,102,1) !important;
+}
+ 
+.navbar a:hover{
+font-Weight:Bold !important;
+Color:rgba(237,27,36,1) !important;
+}
+ 
+.rv-label .odd{
+Color:rgba(35,+33,+34,+1) !important;
+Background-Color:rgba(4,+55,+105,+1) !important;
+Font-Size:24px !important;
+}
+ 
+.shead{
+Background-Color:rgba(4,+55,+105,+1) !important;
+}
+ 
+.topnav{
+Background-Color:rgba(255,255,255,1) !important;
+}
+ 
+.widget{
+Background-Color:rgba(255,255,255,1) !important;
+Color:rgba(0,0,0,1) !important;
+}
+ 
+a,hyperlink span{
+Color:rgba(237,27,36,1) !important;
+}
+ 
+a:hover,hyperlink span:hover{
+Color:rgba(255,255,255,1) !important;
+}
+ 
+body{
+Color:rgba(0,0,0,1) !important;
+Font-Size:18px !important;
+Font-Family:'Roboto Condensed', Arial, sans-serif !important;
+Text-Align:Center ;
+Background-Color:rgba(255,255,255,1) !important;
+}
+ 
+button{
+Color:rgba(255,255,255,1) !important;
+Background-Color:rgba(1,0,102,1) !important;
+Border-Width:1px !important;
+Border-Color:rgba(1,0,102,1) !important;
+Font-Size:18px !important;
+}
+ 
+h1{
+Color:rgba(1,0,102,1) !important;
+Font-Size:30px !important;
+Text-Align:Center ;
+Font-Family:'Arial Black', Arial, sans-serif !important;
+}
+ 
+h2{
+Text-Align:Center ;
+Color:rgba(237,27,36,1) !important;
+Font-Size:26px !important;
+Font-Family:'Arial Black', Arial, sans-serif !important;
+}
+ 
+h3{
+Font-Size:22px !important;
+Color:rgba(112,112,112,1) !important;
+Font-Family:'Arial Black', Arial, sans-serif !important;
+}
+ 
+h4{
+Font-Family:'Arial Black', Arial, sans-serif !important;
+Color:rgba(237,27,36,1) !important;
+Font-Size:22px !important;
+}
+ 
+h5{
+Font-Size:18px !important;
+Color:rgba(158,179,194,1) !important;
+Font-Family:'Arial Black', Arial, sans-serif !important;
+}
+ 
+input{
+Color:rgba(0,0,0,1) !important;
+Border-Width:1px !important;
+Border-Color:rgba(1,0,102,1) !important;
+}
+ 
+table{
+Color:rgba(0,0,0,1) !important;
+Background-Color:rgba(255,255,255,1) !important;
+}
+ 
+textarea{
+Color:rgba(0,0,0,1) !important;
+Background-Color:rgba(255,255,255,1) !important;
+}
+.NoSelect{-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;
+-moz-user-select: none;-ms-user-select: none;user-select: none;	cursor: default;}
+ 

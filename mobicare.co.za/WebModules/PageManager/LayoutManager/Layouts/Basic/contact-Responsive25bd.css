@@ -1,0 +1,17 @@
+html .kenesis-body[data-laptop-width="y"] {
+    padding-top: 55px;
+}
+
+.kenesis-body[data-laptop-width="y"] .logo {
+    padding: 0px !important;
+}
+
+.kenesis-body[data-laptop-width="y"] .image1 [data-width] {
+    height: 50% !important;
+}
+
+.kenesis-body[data-laptop-width="y"] div.rv-content, 
+.kenesis-body[data-laptop-width="y"] div.rv-module {
+    margin: 0px auto !important;
+    width: 100% !important;
+}

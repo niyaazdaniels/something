@@ -1,0 +1,263 @@
+html .kenesis-body div.rv-content > div {
+    padding: 20px !important;
+}
+
+.kenesis-body .rv-image > .inner-ctn {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.kenesis-body section {
+    position: relative;
+}
+
+.kenesis-body .rv-content:not(.has-background),
+.kenesis-body .rv-head,
+.kenesis-body .rv-shead {
+    background-color: transparent !important;
+}
+
+.kenesis-body .rv-head > .inner-ctn,
+.kenesis-body .rv-shead > .inner-ctn {
+    padding: 0 !important;
+}
+
+.kenesis-body .bot-nav {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    filter: drop-shadow(0px 0px 3px #333);
+}
+
+.kenesis-body .go-to-top-btn {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ccc;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.kenesis-body .go-to-top-btn:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -17px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 30px 40px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.kenesis-body .go-to-top-btn:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 0 0 40px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.kenesis-body section[data-n="2"] > .inner-ctn {
+    max-width: 1400px;
+    margin: 50px auto;
+}
+
+.kenesis-body section[data-n="2"] > .inner-ctn .rv-image {
+        width: 30%;
+	/*width: 430px;*/
+    height: 330px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.kenesis-body section[data-n="2"] > .inner-ctn .image-ctn {
+    text-align: center;
+}
+
+.kenesis-body section[data-n="3"] > .rv-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.kenesis-body section[data-n="3"] > .rv-image > div {
+    background-attachment: fixed;
+}
+
+.kenesis-body section[data-n="3"] > .rv-image:after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 120px;
+    z-index: 2;
+}
+
+.kenesis-body section[data-n="3"] > .rv-image:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-color: #022136;
+    z-index: 3;
+}
+
+.kenesis-body section[data-n="3"] >  .inner-ctn {
+    position: relative;
+    z-index: 2;
+    padding: 70px 0;
+}
+
+.kenesis-body section[data-n="3"] >  .inner-ctn > .rv-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.kenesis-body section[data-n="3"] >  .inner-ctn .image-ctn {
+    text-align: center;
+}
+
+.kenesis-body section[data-n="3"] >  .inner-ctn .rv-image {
+    width: 20%;
+	/*width: 340px;*/
+    height: 340px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.kenesis-body section[data-n="3"] >  .inner-ctn .rv-image:hover {
+    transform: scale(1.05);
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn {
+    position: relative;
+    height: 670px;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .rv-image,
+.kenesis-body section[data-n="4"] > .inner-ctn .rv-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+    width: 600px;
+    height: 400px;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .rv-image {
+    border: 5px solid #022136;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .rv-content {
+    z-index: 2;
+    box-shadow: 0px 0px 3px 2px #929292;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .over-block {
+    z-index: 3;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .rv-content > .inner-ctn {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:first-child .rv-image {
+    left: 35%;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:last-child .rv-image {
+    left: 65%;
+    top: 40%;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:first-child .rv-content{
+    left: 65%;
+    top: 60%;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:last-child .rv-content{
+    left: 35%;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .over-block > .inner-ctn:before {
+    content: "";
+    opacity: 0.6;
+    position: absolute;
+    bottom: calc(10% + 32px);
+    width: 40px;
+    background-color: #065590;
+    z-index: -1;
+    height: 395px;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .over-block:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 5px;
+    background-color: #065590;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn .over-block:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 5px;
+    background-color: #50b847;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:first-child .over-block:after {
+    left: -280px;
+    bottom: calc(10% + 32px);
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:first-child .over-block:before {
+    bottom: calc(10% + 37px);
+    left: -210px;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:last-child .over-block:after {
+    right: -280px;
+    bottom: calc(10% + 32px);
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:last-child .over-block:before {
+    bottom: calc(10% + 37px);
+    right: -210px;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:first-child .over-block > .inner-ctn:before {
+    left: -20px;
+}
+
+.kenesis-body section[data-n="4"] > .inner-ctn:last-child .over-block > .inner-ctn:before {
+    right: -20px;
+}

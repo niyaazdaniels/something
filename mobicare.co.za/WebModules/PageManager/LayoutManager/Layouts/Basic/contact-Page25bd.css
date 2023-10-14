@@ -1,0 +1,92 @@
+.kenesis-body {
+    height: auto;
+    background: #f1eee7;
+    background-size: auto;
+    width: 500px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botnav .navbar {
+    left: 25% !important;
+}
+
+.botnav {
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    float: left;
+}
+
+.content1 {
+    width: 100%;
+    height: auto;
+}
+
+.content1 > .inner-ctn {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+}
+
+.content1 > .inner-ctn {
+    width: 100%;
+    height: auto;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.image1 [data-width] {
+    width: 100% !important;
+}
+
+.module1 {
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+}
+
+.module1 > .inner-ctn {
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+}
+
+.widget1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.widget1 iframe {
+    height: 100%;
+}
+
+.kenesis-body div.rv-module {
+    padding: 25px 0px !important;
+}
+
+.kenesis-body .rv-content > div {
+    width: 100%;
+}
+
+.kenesis-body .rv-content {
+    margin: 0px !important;
+    width: 100% !important;
+    display: flex;
+}
+
+html .kenesis-body div.rv-content {
+    padding: 0px !important;
+}
+
+.kenesis-body .rv-content {
+    width: 100%;
+}
+
+html .kenesis-body div.rv-inner-content.module.rv-module {
+    width: 100% !important;
+    padding: 50px !important;
+}

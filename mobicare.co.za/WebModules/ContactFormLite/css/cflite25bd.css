@@ -1,0 +1,333 @@
+#ContactDetails input,#ContactDetails fieldset{
+	display:inline-block;
+	margin:5px;
+	text-shadow:none;
+	min-width:250px;
+}
+
+#ContactDetails input{
+	cursor:pointer;
+
+}
+
+
+#PreviewForm, #PreviewDetails, #PreviewMap{
+	display:inline-block;
+	margin:5px;
+	min-width:30%;
+	width:100%;
+	max-width:380px;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.departitem{
+	position:relative;
+	background-color:rgba(20,20,20,0.7);
+	padding:10px;
+	margin-bottom:5px;
+	padding-bottom:0px;
+}
+
+.departitem .remdepart{
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:2px;
+	top:2px;
+	cursor:pointer;
+	background-image:url('../../images/icons/Symbol-Delete.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+
+#PreviewDetails td span{
+	display: block;
+}
+
+#PreviewDetails td{
+	padding-right:0px!important;
+}
+
+.cap-img {
+	width: 75px;
+	display:inline-block;
+	height: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 5px;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(255, 255, 255,0.75);
+	margin-right:35px;
+} 
+
+.ui-dialog{
+	z-index: 100001!important;
+}
+
+.ui-button{
+	width: 45px;
+    height: 25px;
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+@media (max-width:935px){
+	#PreviewMap{
+		width:100%!important;
+	}
+}
+
+@media (max-width:400px){
+	#PreviewForm input:not([type="submit"]), #PreviewForm textarea {
+		width:290px!important;
+		width: calc(100% - 30px)!important;
+	}
+	#PreviewDetails table tbody tr > td{
+		margin-right: -5px!important;
+	}
+	#PreviewDetails table tbody tr td{
+		font-size:14px!important;
+	}
+	#PreviewForm input:not([type="submit"]), #PreviewForm textarea{
+		font-size:13px!important;
+	}		
+	#PreviewDetails{
+		margin-left:-10px;
+	}
+	.google-partners{
+		display:none;
+	}
+}
+
+/* Here comes to good stuff : content styling */
+ #PreviewForm #content {
+    position:relative;
+    margin:50px auto;
+    width:400px;
+    min-height:200px;
+    z-index:100;
+    padding:30px;
+    border:1px solid #383838;
+    /* My stipped background */
+    background: #D1D1D1;
+    /* Old browsers */
+    background: -moz-repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+    /* FF3.6+ */
+    background: -webkit-repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+    /* FF3.6+ */
+    background: -o-repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+    /* FF3.6+ */
+    background: repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+    /* FF3.6+ */
+    /*border-radius*/
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    /*box-shadow*/
+    -webkit-box-shadow:0px 1px 6px #3F3F3F;
+    -moz-box-shadow:0px 1px 6px #3F3F3F;
+    box-shadow:0px 1px 6px #3F3F3F;
+}
+/** my "fake" background that will hover the stripes **/
+ #PreviewForm #content:after {
+    background:#F9F9F9;
+    margin:10px;
+    position: absolute;
+    content :" ";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border:1px #E5E5E5 solid;
+    /*border-radius*/
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+}
+/*** form styling **/
+
+/** we remove the red glow around required fields since we are already using the red star */
+ #PreviewForm input:required, #PreviewForm textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+/** inputs and textarea**/
+ #PreviewForm input:not([type="submit"]), #PreviewForm textarea {
+    outline:none;
+    display:block;
+    width:340px;
+    padding:4px 8px;
+    border:1px dashed #DBDBDB;
+	Border-Color: rgba(25, 149, 173, 1) !important;
+
+    font-family:'Droid Sans', Tahoma, Arial, Verdana sans-serif;
+    font-size:14px;
+    /*border-radius*/
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    /*transition*/
+    -webkit-transition:background 0.2s linear, box-shadow 0.6s linear;
+    -moz-transition:background 0.2s linear, box-shadow 0.6s linear;
+    -o-transition:background 0.2s linear, box-shadow 0.6s linear;
+    transition:background 0.2s linear, box-shadow 0.6s linear;
+	
+	
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+
+
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+#PreviewForm input:not([type="submit"]):active, #PreviewForm textarea:active, #PreviewForm input:not([type="submit"]):focus, #PreviewForm textarea:focus {
+  
+    border:solid 1px #969696;
+    /*box-shadow*/
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 3px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 3px 3px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,0.6);
+	background-color:none!important;
+}
+
+#PreviewForm input:not([type="submit"]):hover, #PreviewForm textarea:hover {
+	background-color:lightgrey!important;
+}
+
+/* placeholder */
+ ::-webkit-input-placeholder {
+   
+    font-style:italic;
+}
+#PreviewForm input:-moz-placeholder, textarea:-moz-placeholder {
+   
+    font-style:italic;
+}
+#PreviewForm textarea {
+    min-height:75px;
+    resize:vertical
+}
+/** labels**/
+
+/** adding our icon font !! */
+ .iconic:before {
+    font-size:25px;
+    font-family:'Alice', Verdana, serif;
+}
+.iconic.link:before {
+    content:'/';
+}
+.iconic.quote-alt:before {
+    content:"'";
+}
+.iconic.comment:before {
+    content:"q";
+}
+.iconic.user:before {
+    content:"u";
+}
+.iconic.mail-alt:before {
+    content:"M";
+}
+
+#PreviewForm p {
+    margin-bottom:20px;
+}
+#PreviewForm .indication {
+    
+    font-size:12px;
+    font-style:italic;
+    padding-right:10px;
+}
+#PreviewForm .required {
+   
+}
+
+
+
+/** Styling the send button **/
+ #PreviewForm input[type=submit] {
+    cursor:pointer;
+    background:none;
+    border:none;
+    font-family:'Alice', serif;
+    color:#767676;
+    font-size:18px;
+    padding:10px 4px;
+    border:1px solid #E0E0E0;
+    text-shadow: 0px 1px 1px #E8E8E8;
+    background: rgb(247, 247, 247);
+    background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 1%, rgba(242, 242, 242, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(247, 247, 247, 1)), color-stop(100%, rgba(242, 242, 242, 1)));
+    background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 1%, rgba(242, 242, 242, 1) 100%);
+    background: -o-linear-gradient(top, rgba(247, 247, 247, 1) 1%, rgba(242, 242, 242, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(247, 247, 247, 1) 1%, rgba(242, 242, 242, 1) 100%);
+    background: linear-gradient(top, rgba(247, 247, 247, 1) 1%, rgba(242, 242, 242, 1) 100%);
+    /*border-radius*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    /*box-shadow*/
+    -webkit-box-shadow:0px 1px 1px #FFF inset, 0 0 0px 5px #EAEAEA;
+    -moz-box-shadow:0px 1px 1px #FFF inset, 0 0 0px 5px #EAEAEA;
+    box-shadow:0px 1px 1px #FFF inset, 0 0 0px 5px #EAEAEA;
+    /*transition*/
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+#PreviewForm input[type=submit]:hover {
+    color:#686868;
+    border-color: #CECECE;
+    background: rgb(244, 244, 244);
+    background: -moz-linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(244, 244, 244, 1)), color-stop(100%, rgba(242, 242, 242, 1)));
+    background: -webkit-linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: -o-linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    /*box-shadow*/
+    -webkit-box-shadow:0px 1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
+    -moz-box-shadow:0px 1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
+    box-shadow:0px 1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
+}
+#PreviewForm input[type=submit]:active, input[type=submit]:focus {
+    position:relative;
+    top:1px;
+    color:#515151;
+    background: rgb(234, 234, 234);
+    background: -moz-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(234, 234, 234, 1)), color-stop(100%, rgba(242, 242, 242, 1)));
+    background: -webkit-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: -o-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    background: linear-gradient(top, rgba(234, 234, 234, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    /*box-shadow*/
+    -webkit-box-shadow:0px -1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
+    -moz-box-shadow:0px -1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
+    box-shadow:0px -1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
+}
+
+#PreviewForm input:focus,#PreviewForm textarea:focus{
+
+}

@@ -1,0 +1,25 @@
+.kenesis-body[data-mobile-width="y"] section[data-n="2"] > .inner-ctn {
+    margin: 0;
+}
+
+.kenesis-body[data-mobile-width="y"] section[data-n="2"] > .inner-ctn .rv-image {
+    height: 250px;
+    width: calc(100% - 20px);
+}
+
+.kenesis-body[data-mobile-width="y"] section[data-n="3"] > .inner-ctn {
+    padding: 25px;
+}
+
+.kenesis-body[data-mobile-width="y"] section[data-n="3"] > .inner-ctn > .rv-content {
+    margin-bottom: 25px;
+}
+
+.kenesis-body[data-mobile-width="y"] section[data-n="3"] > .inner-ctn .rv-image {
+    width: 250px;
+    height: 250px;
+}
+
+.kenesis-body[data-mobile-width="y"] section[data-n="4"] > .inner-ctn .rv-image {
+    height: 250px;
+}
